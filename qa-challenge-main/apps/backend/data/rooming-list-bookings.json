@@ -1,0 +1,282 @@
+[
+  {
+    "roomingListId": "1",
+    "bookingId": "1"
+  },
+  {
+    "roomingListId": "1",
+    "bookingId": "2"
+  },
+  {
+    "roomingListId": "2",
+    "bookingId": "3"
+  },
+  {
+    "roomingListId": "2",
+    "bookingId": "4"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "5"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "6"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "7"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "8"
+  },
+  {
+    "roomingListId": "1",
+    "bookingId": "9"
+  },
+  {
+    "roomingListId": "1",
+    "bookingId": "10"
+  },
+  {
+    "roomingListId": "2",
+    "bookingId": "11"
+  },
+  {
+    "roomingListId": "1",
+    "bookingId": "12"
+  },
+  {
+    "roomingListId": "1",
+    "bookingId": "13"
+  },
+  {
+    "roomingListId": "2",
+    "bookingId": "14"
+  },
+  {
+    "roomingListId": "3",
+    "bookingId": "15"
+  },
+  {
+    "roomingListId": "3",
+    "bookingId": "16"
+  },
+  {
+    "roomingListId": "3",
+    "bookingId": "17"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "18"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "19"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "20"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "21"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "22"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "23"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "24"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "25"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "26"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "27"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "28"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "29"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "30"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "31"
+  },
+  {
+    "roomingListId": "2",
+    "bookingId": "32"
+  },
+  {
+    "roomingListId": "2",
+    "bookingId": "33"
+  },
+  {
+    "roomingListId": "3",
+    "bookingId": "34"
+  },
+  {
+    "roomingListId": "2",
+    "bookingId": "35"
+  },
+  {
+    "roomingListId": "3",
+    "bookingId": "36"
+  },
+  {
+    "roomingListId": "1",
+    "bookingId": "37"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "38"
+  },
+  {
+    "roomingListId": "5",
+    "bookingId": "39"
+  },
+  {
+    "roomingListId": "4",
+    "bookingId": "40"
+  },
+  {
+    "roomingListId": "6",
+    "bookingId": "9"
+  },
+  {
+    "roomingListId": "6",
+    "bookingId": "10"
+  },
+  {
+    "roomingListId": "7",
+    "bookingId": "15"
+  },
+  {
+    "roomingListId": "7",
+    "bookingId": "16"
+  },
+  {
+    "roomingListId": "8",
+    "bookingId": "12"
+  },
+  {
+    "roomingListId": "8",
+    "bookingId": "13"
+  },
+  {
+    "roomingListId": "9",
+    "bookingId": "3"
+  },
+  {
+    "roomingListId": "9",
+    "bookingId": "4"
+  },
+  {
+    "roomingListId": "10",
+    "bookingId": "32"
+  },
+  {
+    "roomingListId": "10",
+    "bookingId": "33"
+  },
+  {
+    "roomingListId": "11",
+    "bookingId": "1"
+  },
+  {
+    "roomingListId": "11",
+    "bookingId": "2"
+  },
+  {
+    "roomingListId": "12",
+    "bookingId": "34"
+  },
+  {
+    "roomingListId": "12",
+    "bookingId": "36"
+  },
+  {
+    "roomingListId": "13",
+    "bookingId": "25"
+  },
+  {
+    "roomingListId": "13",
+    "bookingId": "26"
+  },
+  {
+    "roomingListId": "14",
+    "bookingId": "5"
+  },
+  {
+    "roomingListId": "14",
+    "bookingId": "6"
+  },
+  {
+    "roomingListId": "15",
+    "bookingId": "21"
+  },
+  {
+    "roomingListId": "15",
+    "bookingId": "22"
+  },
+  {
+    "roomingListId": "16",
+    "bookingId": "19"
+  },
+  {
+    "roomingListId": "16",
+    "bookingId": "20"
+  },
+  {
+    "roomingListId": "17",
+    "bookingId": "27"
+  },
+  {
+    "roomingListId": "17",
+    "bookingId": "28"
+  },
+  {
+    "roomingListId": "18",
+    "bookingId": "24"
+  },
+  {
+    "roomingListId": "18",
+    "bookingId": "30"
+  },
+  {
+    "roomingListId": "19",
+    "bookingId": "35"
+  },
+  {
+    "roomingListId": "19",
+    "bookingId": "14"
+  },
+  {
+    "roomingListId": "20",
+    "bookingId": "17"
+  },
+  {
+    "roomingListId": "20",
+    "bookingId": "37"
+  }
+] 

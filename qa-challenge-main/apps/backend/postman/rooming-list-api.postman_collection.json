@@ -1,0 +1,369 @@
+{
+  "info": {
+    "name": "Rooming List API",
+    "description": "API collection for the Rooming List Management System",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "description": "Authentication endpoints",
+      "item": [
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"admin\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["auth", "login"]
+            },
+            "description": "Authenticate a user and get a JWT token"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Data Import",
+      "description": "Data import operations",
+      "item": [
+        {
+          "name": "Import Data",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/data/import",
+              "host": ["{{baseUrl}}"],
+              "path": ["data", "import"]
+            },
+            "description": "Import sample data into the system"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Rooming Lists",
+      "description": "Rooming List operations",
+      "item": [
+        {
+          "name": "Get All Rooming Lists",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/rooming-lists",
+              "host": ["{{baseUrl}}"],
+              "path": ["rooming-lists"],
+              "query": [
+                {
+                  "key": "status",
+                  "value": "Active",
+                  "description": "Filter by status (Active, Closed, Cancelled)",
+                  "disabled": true
+                },
+                {
+                  "key": "search",
+                  "value": "",
+                  "description": "Search term",
+                  "disabled": true
+                },
+                {
+                  "key": "sortBy",
+                  "value": "cutOffDate",
+                  "description": "Sort by field",
+                  "disabled": true
+                },
+                {
+                  "key": "sortOrder",
+                  "value": "ASC",
+                  "description": "Sort order (ASC or DESC)",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "Get all rooming lists with optional filtering and sorting"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Rooming List by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/rooming-lists/{{roomingListId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["rooming-lists", "{{roomingListId}}"]
+            },
+            "description": "Get a single rooming list by ID"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Bookings for Rooming List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/rooming-lists/{{roomingListId}}/bookings",
+              "host": ["{{baseUrl}}"],
+              "path": ["rooming-lists", "{{roomingListId}}", "bookings"]
+            },
+            "description": "Get all bookings for a specific rooming list"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Rooming List",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"eventId\": \"event-123\",\n  \"hotelId\": \"hotel-456\",\n  \"rfpName\": \"Example Event 2023\",\n  \"cutOffDate\": \"2023-12-31\",\n  \"status\": \"Active\",\n  \"agreement_type\": \"leisure\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/rooming-lists",
+              "host": ["{{baseUrl}}"],
+              "path": ["rooming-lists"]
+            },
+            "description": "Create a new rooming list"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete All Rooming Lists",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/rooming-lists",
+              "host": ["{{baseUrl}}"],
+              "path": ["rooming-lists"]
+            },
+            "description": "Delete all rooming lists"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Bookings",
+      "description": "Booking operations",
+      "item": [
+        {
+          "name": "Get All Bookings",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/bookings",
+              "host": ["{{baseUrl}}"],
+              "path": ["bookings"]
+            },
+            "description": "Get all bookings"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Booking by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/bookings/{{bookingId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["bookings", "{{bookingId}}"]
+            },
+            "description": "Get a single booking by ID"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Booking",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"hotelId\": \"hotel-456\",\n  \"eventId\": \"event-123\",\n  \"guestName\": \"John Doe\",\n  \"guestPhoneNumber\": \"+1234567890\",\n  \"checkInDate\": \"2023-12-01\",\n  \"checkOutDate\": \"2023-12-05\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/bookings",
+              "host": ["{{baseUrl}}"],
+              "path": ["bookings"]
+            },
+            "description": "Create a new booking"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete All Bookings",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/bookings",
+              "host": ["{{baseUrl}}"],
+              "path": ["bookings"]
+            },
+            "description": "Delete all bookings"
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000",
+      "type": "string"
+    },
+    {
+      "key": "token",
+      "value": "YOUR_JWT_TOKEN",
+      "type": "string"
+    },
+    {
+      "key": "roomingListId",
+      "value": "YOUR_ROOMING_LIST_ID",
+      "type": "string"
+    },
+    {
+      "key": "bookingId",
+      "value": "YOUR_BOOKING_ID",
+      "type": "string"
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "// Auto-extract the token from login response",
+          "if (pm.response.code === 200 && pm.info.requestName === 'Login') {",
+          "    const jsonData = pm.response.json();",
+          "    if (jsonData.token) {",
+          "        pm.environment.set('token', jsonData.token);",
+          "        console.log('Token saved to environment variable');",
+          "    }",
+          "}"
+        ]
+      }
+    }
+  ]
+} 

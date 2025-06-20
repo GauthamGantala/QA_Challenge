@@ -1,0 +1,182 @@
+[
+  {
+    "roomingListId": "1",
+    "eventId": "1",
+    "hotelId": "1",
+    "rfpName": "ACL VIP Packages",
+    "cutOffDate": "2023-09-15",
+    "status": "Active",
+    "agreement_type": "leisure"
+  },
+  {
+    "roomingListId": "2",
+    "eventId": "1",
+    "hotelId": "2",
+    "rfpName": "ACL Staff Accommodations",
+    "cutOffDate": "2023-09-20",
+    "status": "Active",
+    "agreement_type": "staff"
+  },
+  {
+    "roomingListId": "3",
+    "eventId": "1",
+    "hotelId": "1",
+    "rfpName": "ACL Artist Housing",
+    "cutOffDate": "2023-09-10",
+    "status": "Closed",
+    "agreement_type": "artist"
+  },
+  {
+    "roomingListId": "4",
+    "eventId": "2",
+    "hotelId": "3",
+    "rfpName": "Ultra VIP Experience",
+    "cutOffDate": "2023-03-01",
+    "status": "Active",
+    "agreement_type": "leisure"
+  },
+  {
+    "roomingListId": "5",
+    "eventId": "2",
+    "hotelId": "4",
+    "rfpName": "Ultra Crew Housing",
+    "cutOffDate": "2023-02-25",
+    "status": "Cancelled",
+    "agreement_type": "staff"
+  },
+  {
+    "roomingListId": "6",
+    "eventId": "1",
+    "hotelId": "5",
+    "rfpName": "ACL Media Packages",
+    "cutOffDate": "2023-09-18",
+    "status": "Active",
+    "agreement_type": "leisure"
+  },
+  {
+    "roomingListId": "7",
+    "eventId": "1",
+    "hotelId": "6",
+    "rfpName": "ACL Talent Management",
+    "cutOffDate": "2023-09-12",
+    "status": "Active",
+    "agreement_type": "artist"
+  },
+  {
+    "roomingListId": "8",
+    "eventId": "1",
+    "hotelId": "7",
+    "rfpName": "ACL Executive Accommodations",
+    "cutOffDate": "2023-09-10",
+    "status": "Active",
+    "agreement_type": "leisure"
+  },
+  {
+    "roomingListId": "9",
+    "eventId": "1",
+    "hotelId": "8",
+    "rfpName": "ACL Production Team",
+    "cutOffDate": "2023-09-22",
+    "status": "Active",
+    "agreement_type": "staff"
+  },
+  {
+    "roomingListId": "10",
+    "eventId": "1",
+    "hotelId": "9",
+    "rfpName": "ACL Security Personnel",
+    "cutOffDate": "2023-09-20",
+    "status": "Closed",
+    "agreement_type": "staff"
+  },
+  {
+    "roomingListId": "11",
+    "eventId": "1",
+    "hotelId": "10",
+    "rfpName": "ACL Sponsor Housing",
+    "cutOffDate": "2023-09-15",
+    "status": "Active",
+    "agreement_type": "leisure"
+  },
+  {
+    "roomingListId": "12",
+    "eventId": "1",
+    "hotelId": "11",
+    "rfpName": "ACL Headliner Suites",
+    "cutOffDate": "2023-09-05",
+    "status": "Active",
+    "agreement_type": "artist"
+  },
+  {
+    "roomingListId": "13",
+    "eventId": "2",
+    "hotelId": "12",
+    "rfpName": "Ultra DJ Accommodations",
+    "cutOffDate": "2023-02-28",
+    "status": "Active",
+    "agreement_type": "artist"
+  },
+  {
+    "roomingListId": "14",
+    "eventId": "2",
+    "hotelId": "13",
+    "rfpName": "Ultra Premium Packages",
+    "cutOffDate": "2023-03-05",
+    "status": "Active",
+    "agreement_type": "leisure"
+  },
+  {
+    "roomingListId": "15",
+    "eventId": "2",
+    "hotelId": "14",
+    "rfpName": "Ultra Executive Housing",
+    "cutOffDate": "2023-02-20",
+    "status": "Active",
+    "agreement_type": "leisure"
+  },
+  {
+    "roomingListId": "16",
+    "eventId": "2",
+    "hotelId": "15",
+    "rfpName": "Ultra Production Team",
+    "cutOffDate": "2023-02-15",
+    "status": "Active",
+    "agreement_type": "staff"
+  },
+  {
+    "roomingListId": "17",
+    "eventId": "2",
+    "hotelId": "16",
+    "rfpName": "Ultra Artist Management",
+    "cutOffDate": "2023-03-01",
+    "status": "Closed",
+    "agreement_type": "artist"
+  },
+  {
+    "roomingListId": "18",
+    "eventId": "2",
+    "hotelId": "17",
+    "rfpName": "Ultra Media Pass Holders",
+    "cutOffDate": "2023-02-25",
+    "status": "Active",
+    "agreement_type": "leisure"
+  },
+  {
+    "roomingListId": "19",
+    "eventId": "1",
+    "hotelId": "18",
+    "rfpName": "ACL Technical Crew",
+    "cutOffDate": "2023-09-17",
+    "status": "Active",
+    "agreement_type": "staff"
+  },
+  {
+    "roomingListId": "20",
+    "eventId": "1",
+    "hotelId": "19",
+    "rfpName": "ACL Tour Management",
+    "cutOffDate": "2023-09-10",
+    "status": "Closed",
+    "agreement_type": "artist"
+  }
+] 

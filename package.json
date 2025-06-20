@@ -1,0 +1,7 @@
+{
+  "name": "QA Challenge",
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "@types/node": "^24.0.1"
+  }
+}
