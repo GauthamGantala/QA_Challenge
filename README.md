@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# QA Challenge
-=======
+
 # QA_Challenge
 
 # 🎯 QA Challenge – Playwright Test Suite
@@ -116,4 +114,4 @@ tests/
 ## Gautham Gantala
 
 QA Engineer/SDET
->>>>>>> 43522631e37a7bf88ce6e1f535a1ada93ee08e29
+
